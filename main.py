@@ -7,6 +7,7 @@ def main():
     root = Tk()
     root.title("Countdown Timer")
     root.geometry("300x150")
+    root.resizable(0, 0)
     root.iconbitmap("countdowntimer.ico")
     running = False
     Textlbl = Label(root, text="Insert countdown time").place(x=100, y=0)
